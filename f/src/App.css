@@ -1,0 +1,230 @@
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  max-width: 40px;
+  margin-right: 5px;
+}
+
+.box{
+  max-width: 500px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+.cake{
+  margin:auto;
+  margin-top: 70px;
+}
+
+.dashbar{
+  background-color: yellow;
+  margin: 15px;
+  height: 30vh;
+  width: 180vh;
+}
+.wallet{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.wallet .btn{
+  margin-right: 20px;
+}
+
+.order-btn{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.order-btn .btn{
+  margin-right: 20px;
+}
+
+.custom-button {
+  height: 80px;
+  width: 350px;
+}
+
+.navbar-bg{
+  background-color: #5F0F40;
+}
+
+.n1{
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+
+ul{
+  list-style-type: none;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+li{
+    margin: 10px;
+    padding: 6px;
+    background-color: #1ced00 ;
+    display: inline-flex;
+    border-radius: 10px;
+    border-style:none;
+    cursor: pointer;
+    
+}
+li:hover{
+  background-color: #5F0F40;
+  transition: 1s;
+}
+
+.link{
+  text-decoration: none;
+  color: rgb(252, 252, 252);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;    
+}
+
+.homepage h1{
+  display: flex;
+  
+  color: #010c1a;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bolder;
+ 
+}
+.box{
+  max-width: 500px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.registration-title{
+  display: flex;
+  justify-content: center;
+}
+
+.regd-form{
+  padding: 10px;
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flexbox;
+  background-color: #0892d0 ;
+  
+  
+}
+
+.regd-form > div{
+  
+  padding: 5px;
+  margin: 20px;
+  font-style: oblique;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.registration-page{
+  background-color:  #bfd6dd;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding: 15px;
+  display: flexbox;
+  justify-content: center;
+}
+
+.input-field{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-outer-div{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.submit{
+display: flex;
+justify-content: center;
+}
+
+.select-role{
+display: flex;
+justify-content: center;
+}
+
+.connect-wallet{
+display: flex;
+justify-content: space-evenly;
+}
+
+.connect-wallet > label{
+color: rgb(60, 6, 207);
+font-weight: bold;
+margin-top: 15px;
+}
+button{
+padding: 8px 16px;
+font-size: 16px;
+background-color: #007bff;
+color: #fff;
+border: none;
+cursor: pointer;
+border-radius: 4px;
+box-shadow: 0 4px 8px 0 rgba(0.4, 0.4, 0.4, 5), 0 6px 20px 0 rgba(0.4, 0.4, 0.4, 6);
+margin-left: 5px;
+margin-top: 50px;
+
+}
+button:hover{
+background-color: #fc036b;
+transition: 1s;
+}
+.head{
+display: flex;
+margin-top:30px;
+
+paddiing :10px;
+justify-content: center;
+align-content: center;
+color: #3f0268;
+}
+.regd-form1{
+  margin: 100px;
+  padding: 100px;
+margin-top: 30px;
+background:linear-gradient(to bottom right,rgb(99, 0, 119),rgb(248,220,200)) ;
+border: none;
+border-radius: 20px;
+color: rgb(255, 251, 0);
+box-shadow: 0 4px 8px 0 rgba(0.4, 0.4, 0.4, 5), 0 6px 20px 0 rgba(0.4, 0.4, 0.4, 6);
+justify-content: center;
+
+font-style: oblique;
+font-family: sans-serif;
+font-weight: bolder;
+font-size: large;
+}
+label{
+margin-right: 20px;
+}
+.from-group input{
+border-radius: 5px;
+border: none;
+background-color: antiquewhite;
+justify-content: center;
+font-weight: 1rem;
+letter-spacing: 1px;
+outline: solid #f3e888;
+outline-width:0px ;
+margin-left: 10px;
+}

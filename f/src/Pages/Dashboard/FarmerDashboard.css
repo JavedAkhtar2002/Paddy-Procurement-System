@@ -1,0 +1,138 @@
+/* Overall layout */
+body {
+  margin: 0;
+  padding: 0;
+  height: 105vh;
+  background-color: #f0f0f0; /* Light grey background */
+  font-family: Arial, sans-serif;
+}
+
+.dashboard {
+  margin: 0;
+  padding: 0;
+  background:linear-gradient(rgb(241, 187, 69),rgb(235, 222, 50));
+  
+  height: 100vh;
+ 
+}
+
+/* Header styles */
+.dashboard h1 {
+  display: flex;
+  justify-content: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #3f0268;
+}
+
+/* Section titles */
+.dashboard h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  color: #052681;
+  font-weight: 700; /* Green color for section titles */
+}
+
+/* Form styles */
+.dashboard form {
+  margin-bottom: 20px;
+}
+
+.dashboard form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: hsl(256, 100%, 19%);
+}
+
+.dashboard form input[type="number"] {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.dashboard form button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff; /* Blue button color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Table styles */
+.dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(14, 13, 13, 0.856);
+}
+
+.dashboard table th,
+.dashboard table td {
+  border: 1px solid #514264;
+  padding: 12px;
+  text-align: left;
+}
+
+.dashboard table th {
+  background-color: #cccde7;
+}
+
+.dashboard table tbody tr:nth-child(even) {
+  background-color: #b9a3a3;
+  
+}
+
+.dashboard table tbody tr:hover {
+  background-color: #d68888;
+  transition: 1s;
+}
+
+/* Button styles */
+.dashboard button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0.4, 0.4, 0.4, 5), 0 6px 20px 0 rgba(0.4, 0.4, 0.4, 6);
+  margin-left: 5px;
+}
+
+.dashboard button:hover {
+  background-color: #fc036b;
+  transition: 1s;
+}
+.dashboard label input{
+  background-color: #f0d852;
+  border-radius: 10px;
+  border: none;
+  margin-left: 20px;
+}
+.order-form button{
+  margin-left: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0.4, 0.4, 0.4, 5), 0 6px 20px 0 rgba(0.4, 0.4, 0.4, 6);
+}
+.order-form label{
+  font-size: 20px;
+  color: hsl(256, 100%, 19%);
+  font-weight: 700;
+}
